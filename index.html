@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nivya Shree P - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!---- <style>
+        body {
+            background-color: white;
+        }
+
+        .hero {
+            color: white;
+            padding: 100px 0;
+            text-align: left;
+            transition: background 0.5s ease;
+        }
+
+        .container {
+            text-align: left;
+        }
+
+        .card {
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .section-title {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .carousel-inner img {
+            filter: brightness(80%);
+        }
+
+        #about ul {
+            margin-bottom: 10px;
+        }
+
+        #projects {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        img {
+            max-width: 2000px;
+            max-height: 400px;
+        }
+
+        .text {
+            position: absolute;
+
+            top: 20%;
+            left: 10%;
+
+            color: white;
+            padding: 10px 20px;
+            font-size: 24px;
+            border-radius: 5px;
+        }
+    </style> -->
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Nivya Shree P</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="project.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--<header class="hero" id="hero-section">
+        <div class="container">
+            <h1>Nivya Shree P</h1>
+            <p>Web Developer | MCA Student</p>
+        </div>
+    </header> -->
+
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-color="linear-gradient(to right, #ff7f50, #ff4500)">
+                <img src="slider_img/laptop-with-glowing-screen-table-dark-top-view-copy-space.jpg"
+                    class="d-block w-100" alt="Slide 1">
+                <div class="text"> NIVYA SHREE P <br>Web developer | MCA Student</div>
+            </div>
+            <div class="carousel-item" data-color="linear-gradient(to right, #4CAF50, #2E8B57)">
+                <img src="slider_img/wp6114994.jpg" class="d-block w-100" alt="Slide 2">
+                <div class="text"> NIVYA SHREE P <br>Web developer | MCA Student</div>
+            </div>
+            <div class="carousel-item" data-color="linear-gradient(to right, #1E90FF, #000080)">
+                <img src="slider_img/wp6115009.jpg" class="d-block w-100" alt="Slide 3">
+                <div class="text"> NIVYA SHREE P <br>Web developer | MCA Student</div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+    </div>
+
+    <section id="about" class="py-4">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p>Enthusiastic MCA student with a foundation in Java, HTML, CSS, JavaScript, and MySQL. Passionate
+                about
+                developing efficient and user-friendly applications while continuously learning and improving. Keen
+                on
+                solving real-world problems through innovative coding solutions and teamwork.</p>
+            <h3>Education</h3>
+            <ul>
+                <li>Master of Computer Applications - Hindustan Institute of Technology & Science</li>
+                <li>Bachelor of Computer Applications - New Prince Shri Bhavani Arts and Science College</li>
+            </ul><br>
+            <h3>Skill Set</h3>
+            <ul>
+                <li><b>Front-End Development:</b> HTML,
+                    CSS,
+                    JavaScript,
+                    React</li>
+
+                <li><b>Back-End Development:</b> Node.js,
+                    java,
+                    Python</li>
+
+                <li><b>Version Control:</b> GitHub</li>
+
+            </ul><br>
+            <h3>Internship</h3>
+            <p>Completed Internship in web development at Codebind Technologies </p>
+            <br>
+            <h3> Certificates</h3>
+            <p>
+                <li><b>java programming -</b> Udemy Nov-2024</li>
+                <li><b>Web Development bootcamp -</b> Udemy jan-2025</li>
+            </p>
+
+
+        </div>
+    </section>
+
+    <section id="projects" class="white">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">E-Commerce Website</h5>
+                            <p class="card-text">Created and maintained an e-commerce website with HTML, CSS as the
+                                frontend, PHP as the backend, and MySQL as the database.<br>
+                                <a href="project.html">project_details</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <p>Email: <a href="mailto:nivyashree2224@gmail.com">nivyashree2224gmail.com</a></p>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.querySelector('#carouselExample').addEventListener('slid.bs.carousel', function (event) {
+            let activeItem = event.relatedTarget;
+            let newColor = activeItem.getAttribute('data-color');
+            document.getElementById('hero-section').style.background = newColor;
+        });
+    </script>
+</body>
+
+</html>
